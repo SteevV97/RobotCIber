@@ -11,15 +11,15 @@ const char *mqtt_server = "192.168.43.15";
 const int mqtt_port = 1883;
 const char *mqtt_user = "";
 const char *mqtt_pass = "";
-const char *root_topic_subscribe = "Robot1/system";
-const char *ultrasonicoIzq_topic_publish = "Robot1/UltrasonicoIzquierda";
-const char *ultrasonicoDer_topic_publish = "Robot1/UltrasonicoDerecha";
-const char *IR_topic_publish = "Robot1/IR";
+const char *root_topic_subscribe = "Robot2/system";
+const char *ultrasonicoIzq_topic_publish = "Robot2/UltrasonicoIzquierda";
+const char *ultrasonicoDer_topic_publish = "Robot2/UltrasonicoDerecha";
+const char *IR_topic_publish = "Robot2/IR";
 
 //SENSORES
 // sensor ultrasonico izquierdo
 const int TriggerI = 4;   //4
-const int EchoI = 2;   //2
+const int EchoI = 2;   //16
 // sensor ultrasonico derecho
 const int TriggerD = 14 ;  //14
 const int EchoD = 12;   //12
